@@ -23,29 +23,7 @@ struct BeginBrowsingView: View {
                     .foregroundColor(Color.black)
                     .bold()
             }
-           /* HStack{
-                Circle()
-                    .fill(Color.green)
-                    .frame(width: 10, height:10)
-                Text("In Closet")
-                    .font(.system(size:10))
-            }
-            HStack{
-                Circle()
-                    .fill(Color.blue)
-                    .frame(width: 10, height:10)
-                Text("Something Similar In Closet")
-                    .font(.system(size:10))
-            }
-            HStack{
-                Circle()
-                    .fill(Color.yellow)
-                    .frame(width: 10, height:10)
-                Text("Purchasable (Click for Availability)")
-                    .font(.system(size:10))
-            }
-            Spacer(minLength: 10)*/
-            
+           
             HStack(alignment: .center){
                 ScrollView(.vertical) {
                     Image("business0")
