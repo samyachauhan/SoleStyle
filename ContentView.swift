@@ -78,15 +78,7 @@ struct ContentView: View {
                         )
                     }.frame(maxHeight: .infinity, alignment: .bottom)
                     
-                    /*VStack{
-                        Text("Don't have an account?")
-                        NavigationLink(destination: SignUpView())
-                        {
-                            Text("Sign Up!")
-                                .font(.system(size: 25, weight: .semibold))
-                                .foregroundColor(.lightBlue)
-                        }.frame(width: 390, height: 50, alignment: .trailing)
-                    }.frame(maxHeight: .infinity, alignment: .bottom)*/
+            
                 }
             }
         }
