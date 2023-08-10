@@ -18,15 +18,7 @@ struct VirtualRenderingView: View {
     
     var body: some View {
         VStack(){
-           /* ZStack{
-                RoundedRectangle(cornerRadius: 25, style: .continuous)
-                    .fill(Color.lightBlue)
-                    .opacity(0.35)
-                    .frame(width: 225, height: 50)
-                Text("Samya's Style")
-                    .font(.system(size:20, weight: .bold))
-                    .foregroundColor(.black)
-            }*/
+           
             HStack{
                 Spacer(minLength: 90)
                 Text("Your" + "\n" + "Style")
